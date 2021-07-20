@@ -11,7 +11,7 @@ function debounMethod(fn,delay){
     clearTimeout(timer);
         timer = setTimeout( ()=>{
             getData.apply(args);
-        },dealy);
+        },delay);
     }
 
 }
